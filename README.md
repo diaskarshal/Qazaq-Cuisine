@@ -1,1 +1,1 @@
-# QazCuisine
+# Qazaq Cuisine recipes
