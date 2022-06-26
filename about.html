@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About || Final</title>
+    
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="./css/normalize.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/black.jpg" alt="QazCuisine" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <main class="page">
+      <section class="about-page">
+        <article>
+          <h2>Qazaqstan's traditional food facts and features</h2>
+          <p>
+            Traditional Qazaq cuisine is the traditional food of the Qazaq peoples.It is focused on mutton and horse meat, as well as various milk products. 
+            For hundreds of years, Qazaqs were herders who raised fat-tailed sheep, Bactrian camels, and horses, relying on these animals for transportation, clothing, and food.
+          </p>
+          <p>
+            The cooking techniques and major ingredients have been strongly influenced by the nation's nomadic way of life. For example, most cooking techniques are aimed at long-term preservation of food. 
+            There is a large practice of salting and drying meat so that it will last, and there is a preference for sour milk, as it is easier to save in a nomadic lifestyle.
+          </p>
+          <a href="contact.html" class="btn"> contact </a>
+        </article>
+        
+        <img
+          src="./assets/recipes/becc.jpg"
+          alt="Qazaq national cuisine"
+          class="img about-img"
+        />
+      </section>
+      <section class="featured-recipes">
+        <h5 class="featured-title">Look At This!</h5>
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/balicc.jpg"
+              class="img recipe-img"
+              alt="balic"
+            />
+            <h5>Balic</h5>
+            <p>Prep : 10min | Cook : 30min</p>
+          </a>
+         
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/bawirsaqq.jpg"
+              class="img recipe-img"
+              alt="bawirsaq"
+            />
+            <h5>Bawirsaq</h5>
+            <p>Prep : 5min | Cook : 35min</p>
+          </a>
+          
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/becc.jpg"
+              class="img recipe-img"
+              alt="becbarmaq"
+            />
+            <h5>Becbarmaq</h5>
+            <p>Prep : 15min | Cook : 120min</p>
+          </a>
+          
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">QazCuisine</span> Built by
+        <a href="https://www.qwant./">Qwant</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
