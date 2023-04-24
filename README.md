@@ -1,1 +1,1 @@
-# Qazaq Cuisine recipes
+html css js
