@@ -1,6 +1,6 @@
 # Qazaq Cuisine Recipes webpage
 
-## Qwasar Programmin School Project
-Basic HTML / CSS / JS practice
+## Project for Qwasar Programming School assignment  
+Starting to practice basic HTML / CSS / JS
 
 :)
